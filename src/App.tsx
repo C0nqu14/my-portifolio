@@ -25,6 +25,12 @@ export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("hero-section");
 
+useEffect(() => {
+  window.scrollTo(0, 0);
+  if ("scrollRestoration" in window.history) {
+    window.history.scrollRestoration = "manual";
+  }
+}, []);
 
   // Track scroll position to update active navigation highlights
   useEffect(() => {

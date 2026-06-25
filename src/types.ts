@@ -133,33 +133,35 @@ export const TIMELINE_DATA: TimelineEvent[] = [
 
 export const CERTIFICATIONS: Certification[] = [
   {
+    name: "Cybersecurity Essentials (LFC108)",
+    issuer: "Linux Foundation",
+    status: "active"
+  },
+  {
+    name: "Cybersecurity Career Starter Certification (CCSC)",
+    issuer: "Hack & Fix",
+    status: "active"
+  },
+  {
+    name: "SYCP - Solyd Certified Pentester",
+    issuer: "Solyd Security",
+    status: "in-progress",
+    date: "2026",
+    code: "SOLYD-SYCP-2024"
+  },
+  {
     name: "eLearnSecurity Junior Penetration Tester (eJPT)",
     issuer: "INE Security",
-    status: "active",
+    status: "planned",
     date: "2025",
     code: "INE-EJPT-9821"
   },
   {
     name: "CompTIA Security+",
     issuer: "CompTIA",
-    status: "active",
+    status: "planned",
     date: "2024",
     code: "COMP-SEC-77192"
-  },
-  {
-    name: "Blue Team Level 1 (BTL1)",
-    issuer: "Security Blue Team",
-    status: "in-progress"
-  },
-  {
-    name: "Practical Network Penetration Tester (PNPT)",
-    issuer: "TCM Security",
-    status: "planned"
-  },
-  {
-    name: "Certified Information Systems Security Professional (CISSP)",
-    issuer: "ISC2",
-    status: "planned"
   }
 ];
 
